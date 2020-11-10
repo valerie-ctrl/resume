@@ -80,8 +80,6 @@ h2 {
     margin-right: 30px;
 }
 
-
-
 .contact-me {
     margin: 80px auto 100px auto;
 }
@@ -135,8 +133,9 @@ h2 {
 }
 
 .projects {
-    width: 50%;
+    width: 90%;
     margin: 60px auto 30px;
+    padding: auto;
 }
 
 .card-text {
@@ -150,4 +149,10 @@ h2 {
 
 .simon-img {
     opacity: 0.8;
+}
+
+.certificate {
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
 }
