@@ -12,7 +12,7 @@ hr {
     margin: 60px auto 60px auto;
 }
 
-.container {
+.my-container {
     background-color: #EAF6F6;
     position: relative;
     padding-top: 10%;
@@ -52,6 +52,11 @@ h2 {
     position: absolute;
 }
 
+#profilepic {
+    width: 15%;
+    margin-top: 100px;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
@@ -75,10 +80,7 @@ h2 {
     margin-right: 30px;
 }
 
-#profilepic {
-    width: 15%;
-    margin-top: 100px;
-}
+
 
 .contact-me {
     margin: 80px auto 100px auto;
@@ -123,9 +125,29 @@ h2 {
 }
 .button:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
+    background-color:#408c99;
+    text-decoration: none;
+    color: white;
 }
 .button:active {
 	position:relative;
 	top:1px;
+}
+
+.projects {
+    width: 50%;
+    margin: 60px auto 30px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
+
+.projects-row {
+    margin-top: 60px;
+}
+
+.simon-img {
+    opacity: 0.8;
 }
