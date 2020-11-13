@@ -43,7 +43,9 @@ h2 {
 }
 
 #cloud1 {
-    margin: auto 30% auto 60%;
+    position: absolute;
+    top: 2%;
+    left: 53%;
 }
 
 #cloud2 {
@@ -180,5 +182,11 @@ h2 {
 @media (max-width: 614px) {
     #mountain {
         width: 100%;
+    }
+}
+
+@media (max-width: 329px) {
+    #cloud1 {
+        left: 35%;
     }
 }
