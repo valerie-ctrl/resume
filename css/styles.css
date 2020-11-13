@@ -198,4 +198,8 @@ h2 {
     #cloud1 {
         left: 35%;
     }
+	
+    .certificate {
+        width: 100%;
+    }
 }
